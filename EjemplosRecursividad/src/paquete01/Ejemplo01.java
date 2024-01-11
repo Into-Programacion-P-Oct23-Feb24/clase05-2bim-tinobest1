@@ -12,10 +12,14 @@ public class Ejemplo01 {
     }
 
     public static void imprimirNumeros(int numero) {
-        System.out.printf("El número es: %d\n", numero);
+        System.out.printf("El numero es: %d\n", numero);
+
+        if (numero <= 1) {
+        }
+            else {
         numero = numero - 1;
         imprimirNumeros(numero);
-
+        }
+        }
     }
 
-}

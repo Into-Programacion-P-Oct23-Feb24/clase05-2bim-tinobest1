@@ -17,6 +17,7 @@ public class Ejemplo07 {
         // se debería presentar el resultado de
         // 2 elevado a la potencia 2 (cuadrado)
         // 2 elevado a la potencia 3 (cubo)
+        System.out.printf("%d\n", obtenerPotencia(2, 3));
         
     }
 
